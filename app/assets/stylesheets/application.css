@@ -1,0 +1,75 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ body {
+     margin: 0;
+    /*background-color: #D5A3C0;*/
+    /*background-color: #FAF5F8;*/
+    background-color: #F8F1F5;
+
+    color: black;
+    letter-spacing: 0.1em;
+    background-size: 50%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .nav1 {
+   font-family: 'Vast Shadow', cursive;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   z-index: 11;
+   padding: 80px;
+   color: #454545;
+   /*border-bottom: 3px solid #454545;*/
+   height: 85px;
+  }
+
+  .nav1 h2 {
+    display: inline;
+    position: relative;
+    left: 500px;
+    top: 90px;
+    letter-spacing: 0.2em;
+    margin-right: 150px;
+  }
+
+  .nav1 ul {
+    position: relative;
+    left: 80px;
+  }
+
+  .nav1 li {
+   display: inline;
+   position: relative;
+   top: 97px;
+   left: 115px;
+   padding-right: 70px;
+   font-size: 18px;
+   width: 50px;
+   letter-spacing: .1em;
+  }
+
+  .nav1 a {
+    text-decoration: none;
+    color: #454545;
+  }
+
+  .nav1 a:hover {
+    color: #feccc9;
+  }
